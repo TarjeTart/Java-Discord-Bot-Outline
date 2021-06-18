@@ -10,6 +10,7 @@ public static void main(String[] args){
     @Override
     public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
         //this is a class that holds instructions for when bot recieves a message
+        //change to MessageRecievedMusic for music bot example
         new MessageRecieved(event);
     }//ends message received event    
 }
