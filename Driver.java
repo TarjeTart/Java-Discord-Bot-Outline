@@ -2,7 +2,7 @@ public class Driver extends ListenerAdapter{
 
 public static void main(String[] args){
         //these two lines create a jda instance and launch it
-        JDAMaker jda = new JDAMaker("ODU1MjE4OTExNTM2NzQyNDMw.YMvSrQ.em4mzaYZAcS-a4fqV6fJPJX9ToM","-help");
+        JDAMaker jda = new JDAMaker("your token here","-help");
         //use constructJdaWithMusic for music bots
         jda.constructJda();
     }
